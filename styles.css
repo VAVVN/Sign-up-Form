@@ -16,7 +16,7 @@ body {
 
 .container {
     background: #fff;
-    padding: 2.5rem 2rem;
+    /* padding: 2.5rem 2rem; */
     box-shadow: 0 8px 32px rgba(60, 80, 120, 0.15);
 }
 
@@ -26,18 +26,27 @@ body {
     width: 33.33 vw;
     height: 100vh;
     color: #fff;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #b8bec7;
+    font-family: 'Norse', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 .icon-text {
-   width: 20px;
-    height: 20px;
+    width: 5rem;
+    height: 5rem;
+    /* vertical-align: top; */
 }  
 
 .icon-text img {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto 1rem;
+    /* width: 100%; */
+    /* height: auto; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* margin: auto 1rem; */
+}
 
 .container.right {
     width: 66.67vw;
@@ -45,17 +54,16 @@ body {
 }
 
 h1 {
-    text-align: center;
-    margin-bottom: 1.5rem;
-    color: #2a4365;
-    font-family: 'Norse', sans-serif;
-    font-size: 2rem;
-    font-weight: 700;
+   background-color: rgb(55, 65, 81, 0.5);
+   display:flex;
+   justify-content: center;
+   margin: 8rem 0 0 0;
+   padding: 1rem;
 }
 
 p {
     text-align: center;
-    color: #4a5568;
+    color: #78818f;
     font-family: 'Norse', sans-serif;
     font-size: 1rem;
     margin-bottom: 1.5rem;
