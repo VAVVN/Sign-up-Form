@@ -1,17 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <div class="container left">  
-        <h1><img class="icon-text" src="icon-removebg-preview.png" alt="Vua Hùng Icon"> ODIN</h1>   
+    <div class="container left">
+        <h1><img class="icon-text" src="icon-removebg-preview.png" alt="Vua Hùng Icon"> ODIN</h1>
     </div>
     <div class="container right">
-        <p>I am learning how to create web pages using HTML and CSS.</p>
+        <div class="container top">
+            <p class="text" strong>
+                This is not a real online service! You know you need something like this in your life to help you
+                realize your deepest dreams. Sign up now to get started.
+                <br>
+                <br>
+                You know you want to!
+            </p>
+        </div>
+        <div class="container mid">
+            <div class="text">Let's do this!</div>
+            <form>
+                <br>
+                <br>
+                <div class="column">
+                    <label for="first-name">First Name</label><br>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+                    <label for="password">Password</label><br>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required><br>
+                </div>
+                <div class="column">
+                    <label for="first-name">Last Name</label><br>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+                    <label for="email">Phone Number</label><br>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+                    <label for="password">Confirm Password</label><br>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required><br>
+                </div>
+                <div class="bot">
+                    <button type="submit" class="Create-Account">Create Account</button>
+                    <p class="text">Already have an account? <a href="#">Log in</a></p>
+                </div>
+            </form>
+        </div>
     </div>
 </body>
 </html>
