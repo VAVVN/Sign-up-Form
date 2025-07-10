@@ -136,7 +136,8 @@ label {
 
 input[type="text"],
 input[type="email"],
-input[type="password"] {
+input[type="password"],
+input[type="number"] {
     margin-top: -0.5rem;
     margin-bottom: 0.5rem;
     padding: 0.75rem;
@@ -154,7 +155,7 @@ input[type="password"]:focus {
 }
 
 button[type="submit"] {
-    background: #2563eb;
+    background: #596D48;
     color: #fff;
     padding: 0.75rem;
     border: none;
