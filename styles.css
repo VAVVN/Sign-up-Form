@@ -115,6 +115,7 @@ form {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    flex: 0 0 calc(100%/2);
     /* gap: 1rem; */
 }
 
